@@ -1,0 +1,255 @@
+/* ==================================================
+   HOME – HERO SECTION
+================================================== */
+
+.home-hero {
+  height: clamp(420px, 65vh, 650px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,1) 0%,
+      rgba(255,255,255,0.9) 30%,
+      rgba(255,255,255,0.4) 55%,
+      rgba(255,255,255,0) 75%
+    ),
+    url("../images/test1.jpg") center right / cover no-repeat;
+
+  padding-left: clamp(20px, 6vw, 120px);
+  padding-right: 5%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+/* CONTENIDO HERO */
+.home-hero-content {
+  max-width: 750px;
+  text-align: left;
+}
+
+
+/* TITULO */
+.home-hero-content h1 {
+  font-size: clamp(1.5rem, 4.5vw, 3rem);
+  font-weight: 700;
+  color: #306f1b;
+  line-height: 1.1;
+  margin: 0 0 20px 0;
+  white-space: nowrap;
+}
+
+
+/* SUBTITULO */
+.home-hero-content p {
+  font-size: clamp(0.95rem, 2.2vw, 1.6rem);
+  line-height: 1.1;
+  color: #306f1b;
+  margin: 0;
+  text-align: left;
+
+}
+
+
+/* ==================================================
+   HERO – AJUSTE MÓVIL
+================================================== */
+
+@media (max-width: 600px) {
+
+  .home-hero {
+    height: auto;
+    min-height: 0;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .home-hero-content h1 {
+    font-size: 1.3rem;
+  }
+
+  .home-hero-content p {
+    font-size: 0.7rem;
+  }
+
+  .home-about {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+}
+
+
+/* ==================================================
+   HOME – ABOUT SECTION
+================================================== */
+
+.home-about {
+  padding: clamp(30px, 3vw, 20px) 5%;
+}
+
+.home-about-highlight {
+  text-align: center;
+}
+
+
+
+.home-about-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.home-about h2 {
+  text-align: center;
+  font-size: clamp(1.4rem, 3.8vw, 2.6rem);
+  font-weight: 700;
+  color: #306f1b;
+  margin-bottom: clamp(20px, 3vw, 40px);
+}
+
+
+.home-about-text,
+.home-about-highlight {
+  max-width: 1000px;
+  margin: 0 auto 15px auto;  /* ← this centers the block */
+  text-align: center;
+  font-size: clamp(0.9rem, 1.8vw, 1.1rem);
+  line-height: 1.6;
+  color: #306f1b;
+}
+
+/* mucho más controlado */
+/* ==================================================
+   HOME – FEATURE CARD (VERTICAL STYLE)
+================================================== */
+
+.home-feature {
+  padding: 20px 5%;
+  text-align: center;
+}
+
+/* TITULO DE SECCIÓN */
+.feature-section-title {
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  font-weight: 600;
+  color: #306f1b;
+  margin-bottom: 25px;
+}
+
+/* TARJETA */
+.feature-card {
+  display: flex;
+  flex-direction: column; /* imagen arriba, texto abajo */
+  justify-content: space-between;
+
+  max-width: 360px;
+  margin: 0 auto;
+
+  text-decoration: none;
+  background: #f2f2f2;
+  border-radius: 14px;
+  padding: 35px 30px;
+
+  min-height: 520px; /* controla altura total */
+
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.06);
+}
+
+/* IMAGEN (OCUPA MITAD SUPERIOR) */
+.feature-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-image img {
+  max-height: 220px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
+
+/* CONTENIDO (OCUPA MITAD INFERIOR) */
+.feature-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* TITULO */
+.feature-content h3 {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-weight: 600;
+  color: #306f1b;
+  margin-bottom: 12px;
+}
+
+/* TEXTO */
+.feature-text {
+  font-size: clamp(0.8rem, 1.4vw, 0.9rem);
+  line-height: 1.5;
+  color: #306f1b;
+  margin-bottom: 15px;
+}
+
+/* LINK */
+.feature-link {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: #306f1b;
+
+  display: inline-block;
+  width: fit-content;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Línea animada */
+.feature-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 1px;
+  background: #306f1b;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover .feature-link::after {
+  transform: scaleX(1);
+}
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media (max-width: 900px) {
+
+  .feature-card {
+    max-width: 90%;
+    min-height: 480px;
+    padding: 30px 25px;
+  }
+
+  .feature-image img {
+    max-height: 180px;
+  }
+
+}

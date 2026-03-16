@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pasadena Flowers | Ubout us</title>
+    <link rel="stylesheet" href="../css/base.css">    
+    <link rel="stylesheet" href="../css/about.css">
+</head>
+<body>
+
+<header class="header">
+<div class="logo-container">
+    <img 
+        src="../images/Logo_ES.png" 
+        alt="Sunset Valley Logo"
+        class="logo-img"
+    >
+</div>
+</header>
+
+<nav class="nav">
+
+  <!-- BOTÓN + MENÚ MÓVIL -->
+  <details class="mobile-nav">
+    <summary class="menu-toggle">☰</summary>
+
+    <ul class="menu menu-mobile">
+      <li><a href="/home" data-i18n="menu_home"></a></li>
+      <li><a href="/productos" data-i18n="menu_products"></a></li>
+      <li><a href="/granjas" data-i18n="menu_farms"></a></li>
+      <li><a href="/nosotros" class="active" data-i18n="menu_nosotros"></a></li>
+      <li><a href="/why" data-i18n="menu_why"></a></li>
+      <li><a href="/contacto" data-i18n="menu_contact"></a></li>
+    </ul>
+  </details>
+
+  <!-- MENÚ ESCRITORIO -->
+  <ul class="menu menu-desktop">
+    <li><a href="/home" data-i18n="menu_home"></a></li>
+    <li><a href="/productos" data-i18n="menu_products"></a></li>
+    <li><a href="/granjas" data-i18n="menu_farms"></a></li>
+    <li><a href="/nosotros" class="active" data-i18n="menu_nosotros"></a></li>
+    <li><a href="/why" data-i18n="menu_why"></a></li>
+    <li><a href="/contacto" data-i18n="menu_contact"></a></li>
+  </ul>
+
+</nav>
+
+
+
+
+        <!-- BOTÓN DE IDIOMA ORIGINAL -->
+        <div class="language-selector">
+            <button class="lang-btn" id="currentLang" type="button">
+                <img src="" alt="" id="langFlag">
+                <span class="lang-text" id="langText"></span>
+                <span class="arrow">▾</span>
+            </button>
+
+            <ul class="lang-dropdown" id="langDropdown">
+                <li data-lang="es">
+                    <img src="../images/Bandera_de_España.svg.png">
+                    <span>Español</span>
+                </li>
+                <li data-lang="en">
+                    <img src="../images/Flag_of_the_United_Kingdom_(3-5).svg.png">
+                    <span>English</span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<main>
+
+    <!-- HERO ABOUT -->
+    <section class="about-hero">
+        <div class="about-hero-overlay">
+            <h1 data-i18n="about_hero_title"></h1>
+            <p data-i18n="about_hero_subtitle"></p>
+        </div>
+    </section>
+
+    </section>
+    <section class="about-centered-text">
+  <p data-i18n="about_text_3">
+
+
+  </p>
+</section>
+
+<section class="team-title">
+  <h2 data-i18n="team_title">
+    Our Process
+  </h2>
+</section>
+
+<section class="about-images">
+  <div class="about-images-grid">
+
+    <div class="about-image-item">
+      <img src="../images/Foto_Manuel.jpeg" >
+      <p data-i18n="about_image_1_text">
+      </p>
+    </div>
+
+    <div class="about-image-item">
+      <img src="../images/MARIATERESA.jpeg" >
+      <p data-i18n="about_image_2_text">
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="process-title">
+  <h2 data-i18n="process_section_title">
+  </h2>
+</section>
+
+<section class="process">
+
+  <div class="process-container">
+
+    <div class="accordion-item open">
+      <button class="accordion-header">
+        <span class="icon">−</span>
+        <span class="title" data-i18n="process_reception_title">RECEPTION</span>
+      </button>
+      <div class="accordion-content">
+        <p data-i18n="process_reception_text">
+          Reception and quality inspection of flowers.
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header">
+        <span class="icon">+</span>
+        <span class="title" data-i18n="process_storage_title">STORAGE</span>
+      </button>
+      <div class="accordion-content">
+        <p data-i18n="process_storage_text">
+          Controlled storage to preserve freshness.
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header">
+        <span class="icon">+</span>
+        <span class="title" data-i18n="process_preparation_title">PREPARATION</span>
+      </button>
+      <div class="accordion-content">
+        <p data-i18n="process_preparation_text">
+          Preparation and conditioning of flowers.
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header">
+        <span class="icon">+</span>
+        <span class="title" data-i18n="process_dyeing_title">DYEING</span>
+      </button>
+      <div class="accordion-content">
+        <p data-i18n="process_dyeing_text">
+          Dyeing process using specialized techniques.
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header">
+        <span class="icon">+</span>
+        <span class="title" data-i18n="process_packaging_title">PACKAGING</span>
+      </button>
+      <div class="accordion-content">
+        <p data-i18n="process_packaging_text">
+          Careful packaging for transport.
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header">
+        <span class="icon">+</span>
+        <span class="title" data-i18n="process_strapping_title">
+          STRAPPING AND LABELING
+        </span>
+      </button>
+      <div class="accordion-content">
+        <p data-i18n="process_strapping_text">
+          Strapping and labeling for export.
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header">
+        <span class="icon">+</span>
+        <span class="title" data-i18n="process_logistics_title">
+          LOGISTICS AND DELIVERY
+        </span>
+      </button>
+      <div class="accordion-content">
+        <p data-i18n="process_logistics_text">
+          Logistics coordination and final delivery.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="process-footer" data-i18n="process_footer_text">
+    From farm to destination, quality in every step.
+  </p>
+
+</section>
+
+
+
+</main>
+
+
+<section class="contact-section">
+  <!-- BLOQUE CONTACTO (COLOR) -->
+  <div class="contact-main">
+<h2 class="contact-title" data-i18n="contact_title"></h2>
+
+    <div class="contact-grid">
+<div class="contact-item">
+  <h3 data-i18n="contact_phone_title"></h3>
+  <p>+573147712473</p>
+</div>
+
+
+      <div class="divider"></div>
+
+<div class="contact-item">
+  <h3 data-i18n="contact_service_title"></h3>
+  <p data-i18n="contact_service_day_1"></p>
+  <p data-i18n="contact_service_day_2"></p>
+  <p data-i18n="contact_service_day_3"></p>
+  <p data-i18n="contact_service_day_4"></p>
+</div>
+
+      <div class="divider"></div>
+
+<div class="contact-item">
+  <h3 data-i18n="contact_emails_title"></h3>
+  <p>Pasadenaflowerssas@gmail.com</p>
+</div>
+
+    </div>
+  </div>
+
+  <!-- BLOQUE LOGO (BLANCO) -->
+<div class="contact-footer">
+  <div class="footer-inner">
+    <img src="../images/Logo_ES.png"
+    alt="Sunset Valley Logo"
+    class="footer-logo"
+>
+    <div class="footer-text">
+      <p data-i18n="footer_company"></p>
+      <p data-i18n="footer_location"></p>
+      <p data-i18n="footer_rights"></p>
+    </div>
+  </div>
+</div>
+</section>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pasadena Flowers | Products</title>
+    <link rel="stylesheet" href="../css/base.css">      
+    <link rel="stylesheet" href="../css/why.css">
+</head>
+<body>
+
+<header class="header">
+<div class="logo-container">
+    <img 
+        src="../images/Logo_ES.png" 
+        alt="Sunset Valley Logo"
+        class="logo-img"
+    >
+</div>
+</header>
+
+<nav class="nav">
+
+  <!-- BOTÓN + MENÚ MÓVIL -->
+  <details class="mobile-nav">
+    <summary class="menu-toggle">☰</summary>
+
+    <ul class="menu menu-mobile">
+      <li><a href="/home" data-i18n="menu_home"></a></li>
+      <li><a href="/productos" data-i18n="menu_products"></a></li>
+      <li><a href="/granjas" data-i18n="menu_farms"></a></li>
+      <li><a href="/nosotros"  data-i18n="menu_nosotros"></a></li>
+      <li><a href="/why" class="active" data-i18n="menu_why"></a></li>
+      <li><a href="/contacto" data-i18n="menu_contact"></a></li>
+    </ul>
+  </details>
+
+  <!-- MENÚ ESCRITORIO -->
+  <ul class="menu menu-desktop">
+    <li><a href="/home" data-i18n="menu_home"></a></li>
+    <li><a href="/productos" data-i18n="menu_products"></a></li>
+    <li><a href="/granjas" data-i18n="menu_farms"></a></li>
+    <li><a href="/nosotros"  data-i18n="menu_nosotros"></a></li>
+    <li><a href="/why" class="active" data-i18n="menu_why"></a></li>
+    <li><a href="/contacto" data-i18n="menu_contact"></a></li>
+  </ul>
+
+</nav>
+
+
+
+
+        <!-- BOTÓN DE IDIOMA ORIGINAL -->
+        <div class="language-selector">
+            <button class="lang-btn" id="currentLang" type="button">
+                <img src="" alt="" id="langFlag">
+                <span class="lang-text" id="langText"></span>
+                <span class="arrow">▾</span>
+            </button>
+
+            <ul class="lang-dropdown" id="langDropdown">
+                <li data-lang="es">
+                    <img src="../images/Bandera_de_España.svg.png">
+                    <span>Español</span>
+                </li>
+                <li data-lang="en">
+                    <img src="../images/Flag_of_the_United_Kingdom_(3-5).svg.png">
+                    <span>English</span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+<main>
+
+    <section class="why-section">
+
+  <div class="why-container">
+
+    <h2 class="why-title" data-i18n="why_title"></h2>
+    <p class="why-subtitle" data-i18n="why_subtitle"></p>
+
+    <div class="why-grid">
+
+      <div class="why-card">
+        <div class="why-icon">🌸</div>
+        <h3 data-i18n="why_card_1_title"></h3>
+        <p data-i18n="why_card_1_text"></p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">🤝</div>
+        <h3 data-i18n="why_card_2_title"></h3>
+        <p data-i18n="why_card_2_text"></p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">🌱</div>
+        <h3 data-i18n="why_card_3_title"></h3>
+        <p data-i18n="why_card_3_text"></p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">📦</div>
+        <h3 data-i18n="why_card_4_title"></h3>
+        <p data-i18n="why_card_4_text"></p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+</main>
+
+<section class="contact-section">
+  <!-- BLOQUE CONTACTO (COLOR) -->
+  <div class="contact-main">
+<h2 class="contact-title" data-i18n="contact_title"></h2>
+
+    <div class="contact-grid">
+<div class="contact-item">
+  <h3 data-i18n="contact_phone_title"></h3>
+  <p>+573147712473</p>
+</div>
+
+
+      <div class="divider"></div>
+
+<div class="contact-item">
+  <h3 data-i18n="contact_service_title"></h3>
+  <p data-i18n="contact_service_day_1"></p>
+  <p data-i18n="contact_service_day_2"></p>
+  <p data-i18n="contact_service_day_3"></p>
+  <p data-i18n="contact_service_day_4"></p>
+</div>
+
+      <div class="divider"></div>
+
+<div class="contact-item">
+  <h3 data-i18n="contact_emails_title"></h3>
+  <p>Pasadenaflowerssas@gmail.com</p>
+</div>
+
+    </div>
+  </div>
+
+  <!-- BLOQUE LOGO (BLANCO) -->
+<div class="contact-footer">
+  <div class="footer-inner">
+    <img src="../images/Logo_ES.png" alt="Sunset Valley Logo">
+
+    <div class="footer-text">
+      <p data-i18n="footer_company"></p>
+      <p data-i18n="footer_location"></p>
+      <p data-i18n="footer_rights"></p>
+    </div>
+  </div>
+</div>
+</section>
+<script src="../js/main.js"></script>
+</body>
+</html>

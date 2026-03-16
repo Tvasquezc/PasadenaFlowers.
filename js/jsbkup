@@ -1,0 +1,263 @@
+const translations = {
+    es: {
+        tagline: "SINTIENDO TUS MOMENTOS",
+        menu_home: "HOGAR",
+        menu_products: "PRODUCTOS",
+        menu_farms: "NUESTROS CULTIVOS",
+        menu_nosotros: "SOBRE NOSOTROS",
+        menu_why: "¿PORQUÉ ELEGIRNOS?",
+        menu_contact: "CONTACTANOS",
+
+        hero_title: "HORTENSIAS DE<br>LA MEJOR CALIDAD",
+        hero_subtitle: "Desde La Unión, Antioquia<br>Para todo el mundo",
+
+        about_title: "SOMOS PASADENA FLOWERS",
+        about_text_1:
+            "¡Bienvenido a Sunset Valley, hogar de las mejores hortensias de La Ceja, Antioquia"+
+            " para el mundo! Aquí encontrará nuestro catálogo de flores vibrantes que"+ 
+            " transformarán cualquier ocasión en un oasis de color y vida. Cada hortensia se cultiva"+
+            " con el máximo cuidado para ofrecerle plantas de excepcional calidad, listas para llenar"+
+            " sus espacios de belleza.",
+        about_text_2:
+            "¡Explora nuestra colección y añade un toque de naturaleza a tu vida!",
+
+        contact_heading: "CONTÁCTENOS",
+        contact_phone_title: "TELÉFONO",
+        contact_service_title: "SERVICIO AL CLIENTE",
+        contact_service_text:
+            "Lunes a viernes 6:30 a 16:00<br>Sábados 6:30 a 11:30<br>Domingos solo negocios",
+        contact_email_title: "CORREOS ELECTRÓNICOS DE CONTACTO",
+
+        about_hero_title: "NOSOTROS",
+about_hero_subtitle: "Ven y visita nuestro showroom",
+
+about_welcome_title: "BIENVENIDOS",
+
+about_text_3: `
+Hola, somos SUNSET VALLEY, una empresa familiar con más de
+20 años de experiencia en el sector floricultor, especializada
+en hortensias.
+`,
+
+about_text_4: `
+Ubicados en La Ceja, Antioquia, contamos con más de 300.000
+plantas en producción de todos los colores y calibres.
+Contribuimos al desarrollo de la región generando empleo
+para madres cabeza de hogar y familias locales.
+`,
+
+about_text_5: `
+Nuestro equipo está capacitado para ofrecer a nuestros clientes
+la mejor selección y calidad de flores. ¿Quieres conocer cómo
+es un día en nuestra operación? ¡Acompáñanos!
+`,
+process_reception_title: "RECEPCIÓN",
+process_reception_text: `
+Nuestro proceso inicia con la inspección de las flores. Aquí recibimos
+las flores que cortamos diariamente, monitoreamos plagas y enfermedades,
+y verificamos calibres y aperturas. Este paso es fundamental para
+garantizar la calidad a nuestros clientes.
+`,
+
+process_storage_title: "ALMACENAMIENTO",
+process_storage_text: `
+Las flores se almacenan bajo condiciones controladas de temperatura y
+humedad para preservar su frescura y prolongar su vida en florero.
+`,
+
+process_preparation_title: "PREPARACIÓN",
+process_preparation_text: `
+Cada tallo es preparado cuidadosamente según las especificaciones del
+cliente, incluyendo corte, clasificación y armado de ramos.
+`,
+
+process_dyeing_title: "TEÑIDO",
+process_dyeing_text: `
+Las flores seleccionadas pasan por nuestro proceso de teñido para lograr
+colores vibrantes, consistentes y personalizados.
+`,
+
+process_packaging_title: "EMPAQUE",
+process_packaging_text: `
+Las flores son empacadas utilizando materiales de protección para
+asegurar que lleguen en perfectas condiciones.
+`,
+
+process_strapping_title: "FLEJADO Y ETIQUETADO",
+process_strapping_text: `
+Cada caja es correctamente flejada y etiquetada para garantizar la
+trazabilidad y un manejo eficiente.
+`,
+
+process_logistics_title: "LOGÍSTICA Y DESPACHO",
+process_logistics_text: `
+Nuestro equipo de logística coordina los envíos para garantizar una
+entrega oportuna y confiable a nivel nacional e internacional.
+`,
+
+process_footer_text: `
+En SUNSET VALLEY trabajamos para garantizar una logística perfecta y la
+mejor calidad en nuestras flores para nuestros clientes. ¡Gracias por
+acompañarnos en este recorrido!
+`,
+
+
+    },
+
+    en: {
+        tagline: "FEELING YOUR MOMENTS",
+        menu_home: "HOME",
+        menu_products: "PRODUCTS",
+        menu_farms: "OUR FARMS",
+        menu_nosotros: "ABOUT US",
+        menu_why: "WHY CHOOSE US?",
+        menu_contact: "CONTACT US",
+
+        hero_title: "HYDRANGEAS OF<br>THE BEST QUALITY",
+        hero_subtitle: "From La Unión, Antioquia<br>For the whole world",
+
+        about_title: "WE ARE PASADENA FLOWERS",
+        about_text_1:
+            "Welcome to Sunset Valley, home of the best hydrangeas from La Ceja Antioquia"+
+            "for the world! Here you will find our catalog of vibrant flowers that will transform any occasion into an oasis of color and life. Each hydrangea is grown with the greatest care to offer you plants of exceptional quality, ready to fill your spaces with beauty.",
+        about_text_2:
+            "Explore our collection and add a touch of nature to your life!",
+
+        contact_heading: "CONTACT US",
+        contact_phone_title: "PHONE",
+        contact_service_title: "CUSTOMER SERVICE",
+        contact_service_text:
+            "Mon–Fri 6:30–16:00<br>Sat 6:30–11:30<br>Sunday business only",
+        contact_email_title: "CONTACT EMAILS",
+
+        about_hero_title: "ABOUT US",
+        about_hero_subtitle: "Come and visit our showroom",
+
+        about_welcome_title: "WELCOME",
+
+        about_text_3: `
+        Hello, we are SUNSET VALLEY, a family business with more than
+        20 years of experience in the flower sector, specializing in hydrangeas.
+         `,
+
+        about_text_4: `
+        Located in La Ceja, Antioquia, we have more than 300,000 plants
+        in production of all colors and grades. We contribute to the growth
+        and development of the region, generating employment to support
+        single mothers and local families.
+        `,
+
+about_text_5: `
+Our team is trained to offer our customers the best selection and
+quality of our flowers. Do you want to know what a day in our
+operation is like? Join us!
+`,
+process_reception_title: "RECEPTION",
+process_reception_text: `
+Our process begins with flower inspection. Here we receive the flowers
+that we cut daily, monitor pests and diseases, and check grades and
+openings. This step is crucial to guarantee quality to our customers.
+`,
+
+process_storage_title: "STORAGE",
+process_storage_text: `
+Flowers are stored under controlled temperature and humidity conditions
+to preserve freshness and extend vase life.
+`,
+
+process_preparation_title: "PREPARATION",
+process_preparation_text: `
+Each stem is carefully prepared according to customer specifications,
+including trimming, grading and bundling.
+`,
+
+process_dyeing_title: "DYEING",
+process_dyeing_text: `
+Selected flowers go through our dyeing process to achieve vibrant,
+consistent and customized colors.
+`,
+
+process_packaging_title: "PACKAGING",
+process_packaging_text: `
+Flowers are packed using protective materials to ensure they arrive
+in perfect condition.
+`,
+
+process_strapping_title: "STRAPPING AND LABELING",
+process_strapping_text: `
+Each box is properly strapped and labeled for traceability and efficient
+handling.
+`,
+
+process_logistics_title: "LOGISTICS AND DELIVERY",
+process_logistics_text: `
+Our logistics team coordinates shipments to ensure timely and reliable
+delivery worldwide.
+`,
+
+process_footer_text: `
+At SUNSET VALLEY, we strive to ensure perfect logistics and the best
+quality in our flowers for our clients. Thank you for joining us on
+this journey!
+`,
+
+    }
+};
+
+const currentLang = document.getElementById("currentLang");
+const dropdown = document.getElementById("langDropdown");
+const flag = document.getElementById("langFlag");
+const text = document.getElementById("langText");
+
+function setLanguage(lang) {
+    document.querySelectorAll("[data-i18n]").forEach(el => {
+        el.innerHTML = translations[lang][el.dataset.i18n];
+    });
+
+    if (lang === "es") {
+        flag.src = "../images/Bandera_de_España.svg.png";
+        text.textContent = "ES";
+    } else {
+        flag.src = "../images/Flag_of_the_United_Kingdom_(3-5).svg.png";
+        text.textContent = "EN";
+    }
+
+    localStorage.setItem("lang", lang);
+}
+
+currentLang.addEventListener("click", e => {
+    e.stopPropagation();
+    dropdown.style.display =
+        dropdown.style.display === "block" ? "none" : "block";
+});
+
+dropdown.querySelectorAll("li").forEach(item => {
+    item.addEventListener("click", () => {
+        setLanguage(item.dataset.lang);
+        dropdown.style.display = "none";
+    });
+});
+
+document.addEventListener("click", () => {
+    dropdown.style.display = "none";
+});
+
+setLanguage(localStorage.getItem("lang") || "es");
+document.querySelectorAll(".accordion-header").forEach(header => {
+    header.addEventListener("click", () => {
+        const item = header.parentElement;
+        const icon = header.querySelector(".icon");
+
+        // Cerrar otros
+        document.querySelectorAll(".accordion-item").forEach(i => {
+            if (i !== item) {
+                i.classList.remove("open");
+                i.querySelector(".icon").textContent = "+";
+            }
+        });
+
+        // Toggle actual
+        item.classList.toggle("open");
+        icon.textContent = item.classList.contains("open") ? "−" : "+";
+    });
+});

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pasadena Flowers | Home</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo-container">
+        <h1>Pasadena Flowers</h1>
+        <span class="tagline" data-i18n="tagline"></span>
+    </div>
+
+    <nav class="nav">
+<ul class="menu">
+    <li><a href="/home" class="active" data-i18n="menu_home"></a></li>
+    <li><a href="/productos" data-i18n="menu_products"></a></li>
+    <li><a href="/granjas" data-i18n="menu_farms"></a></li>
+    <li><a href="/nosotros" data-i18n="menu_nosotros"></a></li>
+    <li><a href="/why" data-i18n="menu_why"></a></li>
+    <li><a href="/contacto" data-i18n="menu_contact"></a></li>
+</ul>
+
+        <!-- BOTÓN DE IDIOMA ORIGINAL -->
+        <div class="language-selector">
+            <button class="lang-btn" id="currentLang" type="button">
+                <img src="" alt="" id="langFlag">
+                <span class="lang-text" id="langText"></span>
+                <span class="arrow">▾</span>
+            </button>
+
+            <ul class="lang-dropdown" id="langDropdown">
+                <li data-lang="es">
+                    <img src="../images/Bandera_de_España.svg.png">
+                    <span>Español</span>
+                </li>
+                <li data-lang="en">
+                    <img src="../images/Flag_of_the_United_Kingdom_(3-5).svg.png">
+                    <span>English</span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <h2 data-i18n="hero_title"></h2>
+            <p data-i18n="hero_subtitle"></p>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about">
+        <div class="about-container">
+            <h2 data-i18n="about_title"></h2>
+            <p data-i18n="about_text_1"></p>
+            <p class="highlight" data-i18n="about_text_2"></p>
+        </div>
+    </section>
+
+</main>
+
+<!-- CONTACT + FOOTER -->
+<footer class="contact-footer">
+    <div class="contact-block">
+        <h2 data-i18n="contact_heading"></h2>
+
+        <div class="contact-columns">
+            <div>
+                <h3 data-i18n="contact_phone_title"></h3>
+                <p>+57 314 771 2473</p>
+            </div>
+
+            <div>
+                <h3 data-i18n="contact_service_title"></h3>
+                <p data-i18n="contact_service_text"></p>
+            </div>
+
+            <div>
+                <h3 data-i18n="contact_email_title"></h3>
+                <p>customerservices@sunsetvalley.com.co</p>
+                <p>salesmanager@sunsetvalley.com.co</p>
+                <p>gerencia@sunsetvalley.com.co</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        © 2024 PASADENA FLOWERS – Todos los derechos reservados
+    </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pasadena Flowers | Products</title>
+    <link rel="stylesheet" href="../../css/base.css">    
+    <link rel="stylesheet" href="../../css/products.css">
+</head>
+<body>
+
+<header class="header">
+<div class="logo-container">
+    <img 
+        src="../../images/Logo_ES.png"
+        alt="Sunset Valley Logo"
+        class="logo-img"
+    >
+</div>
+</header>
+
+<nav class="nav">
+
+  <!-- BOTÓN + MENÚ MÓVIL -->
+  <details class="mobile-nav">
+    <summary class="menu-toggle">☰</summary>
+
+    <ul class="menu menu-mobile">
+      <li><a href="/home" data-i18n="menu_home"></a></li>
+      <li><a href="/productos" class="active" data-i18n="menu_products"></a></li>
+      <li><a href="/granjas" data-i18n="menu_farms"></a></li>
+      <li><a href="/nosotros" data-i18n="menu_nosotros"></a></li>
+      <li><a href="/why" data-i18n="menu_why"></a></li>
+      <li><a href="/contacto" data-i18n="menu_contact"></a></li>
+    </ul>
+  </details>
+
+  <!-- MENÚ ESCRITORIO -->
+  <ul class="menu menu-desktop">
+    <li><a href="/home" data-i18n="menu_home"></a></li>
+    <li><a href="/productos" class="active" data-i18n="menu_products"></a></li>
+    <li><a href="/granjas" data-i18n="menu_farms"></a></li>
+    <li><a href="/nosotros"  data-i18n="menu_nosotros"></a></li>
+    <li><a href="/why" data-i18n="menu_why"></a></li>
+    <li><a href="/contacto" data-i18n="menu_contact"></a></li>
+  </ul>
+
+</nav>
+
+
+
+
+        <!-- BOTÓN DE IDIOMA ORIGINAL -->
+        <div class="language-selector">
+            <button class="lang-btn" id="currentLang" type="button">
+                <img src="" alt="" id="langFlag">
+                <span class="lang-text" id="langText"></span>
+                <span class="arrow">▾</span>
+            </button>
+
+            <ul class="lang-dropdown" id="langDropdown">
+                <li data-lang="es">
+                    <img src="../../images/Bandera_de_España.svg.png">
+                    <span>Español</span>
+                </li>
+                <li data-lang="en">
+                    <img src="../../images/Flag_of_the_United_Kingdom_(3-5).svg.png">
+                    <span>English</span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<main class="product-page">
+
+  <h1 id="productTitle"></h1>
+
+
+  <div class="product-layout">
+
+    <div class="product-image">
+      <img id="mainImage" src="" alt="">
+    </div>
+
+    <div class="product-info">
+
+      <div class="product-selector">
+        <button data-variant="baby" data-i18n="variant_baby"></button>
+        <button data-variant="bouquet" data-i18n="variant_bouquet"></button>
+        <button data-variant="select" data-i18n="variant_select"></button>
+        <button data-variant="super" data-i18n="variant_super"></button>
+        <button data-variant="extra" data-i18n="variant_extra"></button>
+        <button data-variant="jumbo" data-i18n="variant_jumbo"></button>
+      </div>
+
+      <div class="product-specs">
+        <div>
+          <span data-i18n="spec_length"></span>
+          <strong id="length"></strong>
+        </div>
+        <div>
+          <span data-i18n="spec_bloom"></span>
+          <strong id="bloom"></strong>
+        </div>
+        <div>
+          <span data-i18n="spec_aperture"></span>
+          <strong id="aperture"></strong>
+        </div>
+        <div>
+          <span data-i18n="spec_foliage"></span>
+          <strong id="foliage"></strong>
+        </div>
+      </div>
+
+      <button class="contact-btn" data-i18n="contact_sales"></button>
+
+    </div>
+  </div>
+
+</main>
+
+<section class="related-products">
+  <h2 data-i18n="you_may_also_like"></h2>
+
+ <div class="colors-grid" id="relatedGrid">    <!-- JS inserta los productos aquí -->
+  </div>
+</section>
+
+<section class="contact-section">
+  <!-- BLOQUE CONTACTO (COLOR) -->
+  <div class="contact-main">
+<h2 class="contact-title" data-i18n="contact_title"></h2>
+
+    <div class="contact-grid">
+<div class="contact-item">
+  <h3 data-i18n="contact_phone_title"></h3>
+  <p>+573147712473</p>
+</div>
+
+
+      <div class="divider"></div>
+
+<div class="contact-item">
+  <h3 data-i18n="contact_service_title"></h3>
+  <p data-i18n="contact_service_day_1"></p>
+  <p data-i18n="contact_service_day_2"></p>
+  <p data-i18n="contact_service_day_3"></p>
+  <p data-i18n="contact_service_day_4"></p>
+</div>
+
+      <div class="divider"></div>
+
+<div class="contact-item">
+  <h3 data-i18n="contact_emails_title"></h3>
+  <p>Pasadenaflowerssas@gmail.com</p>
+</div>
+
+    </div>
+  </div>
+
+  <!-- BLOQUE LOGO (BLANCO) -->
+<div class="contact-footer">
+  <div class="footer-inner">
+    <img src="../../images/Logo_ES.png" alt="Sunset Valley Logo">
+
+    <div class="footer-text">
+      <p data-i18n="footer_company"></p>
+      <p data-i18n="footer_location"></p>
+      <p data-i18n="footer_rights"></p>
+    </div>
+  </div>
+</div>
+</section>
+
+<script src="../../js/main.js"></script>
+<script src="../../js/products.js"></script>
+
+
+</body>
+</html>

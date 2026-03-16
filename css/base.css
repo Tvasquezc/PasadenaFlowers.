@@ -1,0 +1,312 @@
+/* ==================================================
+   RESET & BASE
+================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', Helvetica, Arial, Lucida, sans-serif;
+  color: #306f1b;
+}
+
+
+/* ==================================================
+   HEADER & LOGO
+================================================== */
+
+.header {
+  text-align: center;
+  padding: 20px 20px 0;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  max-width: 250px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    max-width: 180px;
+  }
+}
+
+
+/* ==================================================
+   NAVIGATION – DESKTOP BASE
+================================================== */
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  position: sticky;   /* 🔥 hace que el menú se quede arriba */
+  top: 0;
+  z-index: 1000;
+
+  background: #ffffff;
+}
+
+.menu.menu-desktop {
+  list-style: none;
+  display: flex;
+}
+
+.menu.menu-desktop li {
+  border: none;
+}
+
+.menu.menu-desktop a {
+  display: block;
+  padding: 14px 35px;
+  text-decoration: none;
+  color: #306f1b;
+  font-weight: 800;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.menu.menu-desktop a:hover,
+.menu.menu-desktop a.active {
+  background-color: #306f1b;
+  color: #ffffff;
+}
+
+
+/* ==================================================
+   MOBILE NAV STRUCTURE (BASE HIDDEN)
+================================================== */
+
+.menu-mobile,
+.mobile-nav,
+.menu-toggle {
+  display: none;
+}
+
+
+/* ==================================================
+   MOBILE NAV STRUCTURE
+================================================== */
+
+.mobile-nav .menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;           /* ancho fijo elegante */
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+
+.mobile-nav[open] .menu {
+  display: flex;
+}
+
+.menu-mobile li {
+  border-bottom: 1px solid #eee;
+}
+
+.menu-mobile a {
+  padding: 16px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #306f1b;
+  font-weight: 600;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.menu-mobile a:hover,
+.menu-mobile a.active {
+  background-color: #306f1b;
+  color: #ffffff;
+}
+
+
+/* ==================================================
+   LANGUAGE SELECTOR
+================================================== */
+
+.language-selector {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 5000;
+  display: flex;
+  justify-content: center;
+}
+
+.lang-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.lang-btn img,
+.lang-dropdown img {
+  width: 28px;
+  height: auto;
+}
+
+.lang-dropdown {
+  list-style: none;
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  background: #fff;
+  border: 1px solid #ddd;
+  display: none;
+  border-radius: 6px;
+}
+
+.lang-dropdown li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+
+/* ==================================================
+   CONTACT SECTION
+================================================== */
+
+.contact-main {
+  padding: 50px 10%;
+  color: #ffffff;
+  background-image: url("../images/banner.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 1px;
+  margin-bottom: 100px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  align-items: start;
+  gap: 40px;
+}
+
+.contact-item h3,
+.contact-item p {
+  text-align: center;
+}
+
+.contact-item h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact-item p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.divider {
+  width: 2px;
+  background-color: rgba(255, 255, 255, 0.6);
+  align-self: stretch;
+}
+
+.contact-footer {
+  background-color: #ffffff;
+  padding: 50px 10%;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer-inner img {
+  max-width: 240px;
+}
+
+.footer-text p {
+  font-size: 15px;
+  margin: 4px 0;
+  color: #306f1b;
+}
+
+
+/* ==================================================
+   MOBILE (≤ 900px)
+================================================== */
+
+@media (max-width: 900px) {
+
+  .menu.menu-desktop {
+    display: none;
+  }
+
+  .mobile-nav {
+  display: block;
+  position: relative;
+  width: fit-content;     /* 👈 ya no ocupa todo el ancho */
+  margin: 0 auto;         /* 👈 centra el botón */
+}
+
+
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  .menu-toggle::-webkit-details-marker {
+    display: none;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
