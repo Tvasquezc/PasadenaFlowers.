@@ -21,7 +21,7 @@
   padding-left: clamp(20px, 6vw, 120px);
   padding-right: 5%;
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 0px;
 }
 
 
@@ -58,38 +58,44 @@
    HERO – AJUSTE MÓVIL
 ================================================== */
 
+/* ==================================================
+   HERO – AJUSTE MÓVIL
+================================================== */
+
 @media (max-width: 600px) {
 
   .home-hero {
     height: auto;
-    min-height: 0;
-    align-items: flex-start;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    min-height: 300px;
+
+    align-items: center;   /* CENTRA verticalmente */
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .home-hero-content h1 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    white-space: normal;
   }
 
   .home-hero-content p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
   }
 
-  .home-about {
-    padding-top: 10px;
-    padding-bottom: 30px;
-  }
 }
-
 
 /* ==================================================
    HOME – ABOUT SECTION
 ================================================== */
 
 .home-about {
-  padding: clamp(30px, 3vw, 20px) 5%;
-}
+padding: clamp(30px, 3vw, 20px) 5%;
+padding-top: 60px;}
 
 .home-about-highlight {
   text-align: center;

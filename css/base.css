@@ -30,13 +30,14 @@ body {
 }
 
 .logo-img {
-  max-width: 250px;
+  max-width: 400px;
+  margin-bottom: 20px;
   height: auto;
 }
 
 @media (max-width: 768px) {
   .logo-img {
-    max-width: 180px;
+    max-width: 300px;
   }
 }
 
@@ -252,8 +253,9 @@ body {
 }
 
 .footer-inner img {
-  max-width: 240px;
+  max-width: 400px;
 }
+
 
 .footer-text p {
   font-size: 15px;
@@ -265,7 +267,6 @@ body {
 /* ==================================================
    MOBILE (≤ 900px)
 ================================================== */
-
 @media (max-width: 900px) {
 
   .menu.menu-desktop {
@@ -273,17 +274,19 @@ body {
   }
 
   .mobile-nav {
-  display: block;
-  position: relative;
-  width: fit-content;     /* 👈 ya no ocupa todo el ancho */
-  margin: 0 auto;         /* 👈 centra el botón */
-}
-
-
-  .menu-mobile {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
   }
+
+ .menu-mobile {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
   .menu-toggle {
     display: block;
@@ -308,5 +311,14 @@ body {
   .footer-inner {
     flex-direction: column;
     text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
   }
+
+  .footer-inner img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+  }
+
 }
