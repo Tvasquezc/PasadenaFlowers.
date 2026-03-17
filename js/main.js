@@ -42,46 +42,53 @@ about_text_3:
 
 process_reception_title: "RECEPCIÓN",
 process_reception_text: `
-Nuestro proceso inicia con la inspección de las flores. Aquí recibimos
-las flores que cortamos diariamente, monitoreamos plagas y enfermedades,
-y verificamos calibres y aperturas. Este paso es fundamental para
-garantizar la calidad a nuestros clientes.
+Nuestro proceso comienza con la revisión inicial de las flores. En esta
+etapa recibimos la producción diaria, evaluamos posibles plagas o
+enfermedades y comprobamos el calibre y el grado de apertura. Este
+control es clave para asegurar los estándares de calidad que ofrecemos
+a nuestros clientes.
 `,
 
 process_storage_title: "ALMACENAMIENTO",
 process_storage_text: `
-Las flores se almacenan bajo condiciones controladas de temperatura y
-humedad para preservar su frescura y prolongar su vida en florero.
+Las flores se conservan en cámaras con temperatura y humedad
+controladas, lo que permite mantener su frescura y extender su duración
+una vez en florero.
 `,
 
 process_preparation_title: "PREPARACIÓN",
 process_preparation_text: `
-Cada tallo es preparado cuidadosamente según las especificaciones del
-cliente, incluyendo corte, clasificación y armado de ramos.
+Cada tallo es acondicionado cuidadosamente de acuerdo con los
+requerimientos del cliente, incluyendo procesos de corte, selección y
+organización de los ramos.
 `,
 
 process_dyeing_title: "TEÑIDO",
 process_dyeing_text: `
-Las flores seleccionadas pasan por nuestro proceso de teñido para lograr
-colores vibrantes, consistentes y personalizados.
+Las flores destinadas a coloración pasan por un proceso especializado de
+teñido que permite obtener tonos intensos, uniformes y adaptados a las
+preferencias del cliente.
 `,
 
 process_packaging_title: "EMPAQUE",
 process_packaging_text: `
-Las flores son empacadas utilizando materiales de protección para
-asegurar que lleguen en perfectas condiciones.
+Posteriormente, las flores se empacan utilizando materiales adecuados
+de protección para asegurar que lleguen en óptimas condiciones a su
+destino.
 `,
 
 process_strapping_title: "FLEJADO Y ETIQUETADO",
 process_strapping_text: `
-Cada caja es correctamente flejada y etiquetada para garantizar la
-trazabilidad y un manejo eficiente.
+Cada caja es flejada y marcada con su respectiva etiqueta para facilitar
+la trazabilidad del producto y optimizar su manipulación durante el
+transporte.
 `,
 
 process_logistics_title: "LOGÍSTICA Y DESPACHO",
 process_logistics_text: `
-Nuestro equipo de logística coordina los envíos para garantizar una
-entrega oportuna y confiable a nivel nacional e internacional.
+El equipo logístico coordina el envío de los pedidos, asegurando
+entregas eficientes y puntuales tanto en el mercado nacional como en el
+internacional.
 `,
 
 process_footer_text: `
@@ -212,45 +219,46 @@ home_about_text_2:
 
 process_reception_title: "RECEPTION",
 process_reception_text: `
-Our process begins with flower inspection. Here we receive the flowers
-that we cut daily, monitor pests and diseases, and check grades and
-openings. This step is crucial to guarantee quality to our customers.
+Our process begins with the initial inspection of the flowers. At this
+stage we receive the daily harvest, check for pests and diseases, and
+verify stem size and bloom opening. This step is essential to ensure
+the quality standards we deliver to our customers.
 `,
 
 process_storage_title: "STORAGE",
 process_storage_text: `
-Flowers are stored under controlled temperature and humidity conditions
-to preserve freshness and extend vase life.
+Flowers are stored in controlled temperature and humidity conditions to
+preserve their freshness and extend their vase life.
 `,
 
 process_preparation_title: "PREPARATION",
 process_preparation_text: `
 Each stem is carefully prepared according to customer specifications,
-including trimming, grading and bundling.
+including cutting, grading, and bouquet assembly.
 `,
 
 process_dyeing_title: "DYEING",
 process_dyeing_text: `
-Selected flowers go through our dyeing process to achieve vibrant,
-consistent and customized colors.
+Selected flowers go through our specialized dyeing process to achieve
+vibrant, consistent, and customized colors.
 `,
 
 process_packaging_title: "PACKAGING",
 process_packaging_text: `
-Flowers are packed using protective materials to ensure they arrive
-in perfect condition.
+The flowers are packed using protective materials to ensure they arrive
+at their destination in excellent condition.
 `,
 
-process_strapping_title: "STRAPPING AND LABELING",
+process_strapping_title: "STRAPPING & LABELING",
 process_strapping_text: `
-Each box is properly strapped and labeled for traceability and efficient
-handling.
+Each box is secured with strapping and properly labeled to ensure
+product traceability and efficient handling during transport.
 `,
 
-process_logistics_title: "LOGISTICS AND DELIVERY",
+process_logistics_title: "LOGISTICS & SHIPPING",
 process_logistics_text: `
-Our logistics team coordinates shipments to ensure timely and reliable
-delivery worldwide.
+Our logistics team coordinates shipments to ensure reliable and timely
+delivery both nationally and internationally.
 `,
 
 process_footer_text: `
