@@ -396,3 +396,10 @@ body {
     opacity:0;
   }
 }
+
+@media (max-width: 768px){
+  .whatsapp-container{
+    bottom: 12px;
+    left: 16px;
+  }
+}
