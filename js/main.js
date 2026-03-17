@@ -108,6 +108,8 @@ acompañarnos en este recorrido!
 
     about_image_1_text: "Manuel Campuzano",
     about_image_2_text: "Maria Teresa Campuzano",
+    about_image_3_text: "Andrés Giraldo",
+about_image_4_text: "Mario Chirinos",
     team_title:"Nuestro Equipo",
 
 color_1_name: "Púrpura ",
@@ -280,6 +282,9 @@ color_4_name: "Emerald",
 
 about_image_1_text: "Manuel Campuzano",
 about_image_2_text: "Maria Teresa Campuzano",
+about_image_3_text: "Andrés Giraldo",
+about_image_4_text: "Mario Chirinos",
+
     team_title:"Our Team",
 
 product_classic_purple_title: "PURPLE",
