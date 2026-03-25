@@ -110,7 +110,7 @@ acompañarnos en este recorrido!
     contact_emails_title: "CORREOS DE CONTACTO",
     contact_title: "CONTÁCTANOS",
     Farms_hero_title: "NUESTROS CULTIVOS",
-    Farms_hero_subtitle: "Ven y observa donde todo florece <br> Cultivo LA ESPERANZA- La Unión, Colombia",
+    Farms_hero_subtitle: "Ven y observa donde todo florece <br> Cultivo LA ESPERANZA - La Unión, Colombia",
     colors_title: "Colores Naturales",
 
     about_image_1_text: "Manuel Campuzano",
