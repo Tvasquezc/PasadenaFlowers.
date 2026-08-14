@@ -112,6 +112,9 @@ acompañarnos en este recorrido!
     Farms_hero_title: "NUESTROS CULTIVOS",
     Farms_hero_subtitle: "Ven y observa donde todo florece <br> Cultivo LA ESPERANZA - La Unión, Colombia",
     colors_title: "Colores Naturales",
+    tinted_title: "Tinturadas",
+    tinted_immersion_name: "Tinturada por inmersión",
+    tinted_spray_name: "Tinturada por aspersión",
 
     about_image_1_text: "Manuel Campuzano",
     about_image_2_text: "Maria Teresa Campuzano",
@@ -122,12 +125,14 @@ about_image_4_text: "Mario Chirinos",
 color_1_name: "Púrpura ",
 color_2_name: "Blanca ",
 color_3_name: "Azul ",
-color_4_name: "Esmeralda ",
+color_4_name: "Verde Oscuro",
 
 product_classic_purple_title: "PÚRPURA",
 product_classic_white_title: "BLANCO",
 product_classic_blue_title: "AZUL",
-product_classic_green_title: "ESMERALDA",
+product_classic_green_title: "VERDE OSCURO",
+product_tinted_immersion_title: "TINTURADA POR INMERSIÓN",
+product_tinted_spray_title: "TINTURADA POR ASPERSIÓN",
 
 variant_baby: "Baby",
 variant_bouquet: "Ramo",
@@ -135,11 +140,26 @@ variant_select: "Select",
 variant_super: "Super Select",
 variant_extra: "Extra",
 variant_jumbo: "Jumbo",
+variant_mini: "Mini",
+variant_premium: "Premium",
 
   spec_length: "Longitud",
   spec_bloom: "Tamaño de flor",
   spec_aperture: "Apertura",
   spec_foliage: "Follaje",
+  spec_color: "Color",
+
+  color_pink: "Rosa",
+  color_light_pink: "Rosa claro",
+  color_orange: "Naranja",
+  color_light_orange: "Naranja claro",
+  color_burgundy: "Borgoña",
+  color_deep_blue: "Azul intenso",
+  color_peach: "Durazno",
+  color_light_peach: "Durazno claro",
+  color_yellow: "Amarillo",
+  color_lavender: "Lavanda",
+  color_red: "Rojo",
 
   contact_sales: "CONTACTAR A VENTAS",
 see_more:"Ver más",
@@ -168,6 +188,8 @@ why_title: "¿POR QUÉ ELEGIRNOS?",
 feature_section_title: "Nuestra Selección de Hortensias",
 feature_title: "Colores Naturales",
 feature_text: "Nuestra variedad Classic representa la esencia tradicional de la hortensia colombiana. Se caracteriza por su estructura uniforme, pétalos compactos y colores vibrantes que mantienen su intensidad durante todo el proceso de postcosecha.",
+feature_tinted_title: "Tinturadas",
+feature_tinted_text: "Flores cuidadosamente tinturadas para lograr tonos únicos y vibrantes, conservando su belleza, textura y apariencia natural.",
 feature_cta: "VER PRODUCTOS",
  process_section_title: "Nuestra cadena de suministro",
 
@@ -282,11 +304,14 @@ this journey!
     Farms_hero_title: "OUR FARMS",
     Farms_hero_subtitle: "Come and see where it all blooms <br> LA ESPERANZA Farm - La Unión, Colombia",
     colors_title: "NATURAL COLORS",
+    tinted_title: "DYED",
+    tinted_immersion_name: "Immersion Dyed",
+    tinted_spray_name: "Spray Dyed",
 
 color_1_name: "Purple",
 color_2_name: "White",
 color_3_name: "Blue",
-color_4_name: "Emerald",
+color_4_name: "Dark Green",
 
 about_image_1_text: "Manuel Campuzano",
 about_image_2_text: "Maria Teresa Campuzano",
@@ -298,7 +323,9 @@ about_image_4_text: "Mario Chirinos",
 product_classic_purple_title: "PURPLE",
 product_classic_white_title: "WHITE",
 product_classic_blue_title: "BLUE",
-product_classic_green_title: "EMERALD",
+product_classic_green_title: "DARK GREEN",
+product_tinted_immersion_title: "IMMERSION DYED",
+product_tinted_spray_title: "SPRAY DYED",
 
 variant_baby: "Baby",
 variant_bouquet: "Bouquet",
@@ -306,11 +333,26 @@ variant_select: "Select",
   variant_super: "Super Select",
   variant_extra: "Extra",
   variant_jumbo: "Jumbo",
+  variant_mini: "Mini",
+  variant_premium: "Premium",
 
   spec_length: "Length",
   spec_bloom: "Bloom Size",
   spec_aperture: "Aperture",
   spec_foliage: "Foliage",
+  spec_color: "Color",
+
+  color_pink: "Pink",
+  color_light_pink: "Light pink",
+  color_orange: "Orange",
+  color_light_orange: "Light orange",
+  color_burgundy: "Burgundy",
+  color_deep_blue: "Deep blue",
+  color_peach: "Peach",
+  color_light_peach: "Light peach",
+  color_yellow: "Yellow",
+  color_lavender: "Lavender",
+  color_red: "Red",
 
 contact_sales: "CONTACT A SALES PERSON",
 see_more:"See more",
@@ -341,6 +383,8 @@ contact_email: "EMAIL",
 feature_section_title: "Our Hydrangeas Selection",
 feature_title: "Natural Colors",
 feature_text: "Discover our high-quality hydrangeas grown under strict technical standards and prepared for international markets.",
+feature_tinted_title: "Dyed Flowers",
+feature_tinted_text: "Carefully dyed flowers created in unique, vibrant shades while preserving their beauty, texture, and natural appearance.",
 feature_cta: "VIEW PRODUCTS",
 
 
@@ -366,6 +410,10 @@ const footerLogoImg = document.querySelector(".footer-logo");
 function setLanguage(lang) {
     document.querySelectorAll("[data-i18n]").forEach(el => {
         el.innerHTML = translations[lang][el.dataset.i18n];
+    });
+
+    document.querySelectorAll("[data-i18n-alt]").forEach(el => {
+        el.alt = translations[lang][el.dataset.i18nAlt];
     });
 
         if (logoImg && logos[lang]) {
