@@ -121,23 +121,19 @@
   text-align: center;
 }
 
-@media (max-width: 1000px) {
-  .colors-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .colors-grid {
-    grid-template-columns: 1fr;
+@media (max-width: 640px) {
+  .tinted-section {
+    min-height: auto;
+    padding: 45px 18px 50px;
   }
 
   .colors-grid.tinted-grid {
     grid-template-columns: 1fr;
+    max-width: 231px;
   }
 
-  .colors-title {
-    font-size: 2.2rem;
+  .colors-grid.tinted-grid .product-link {
+    width: 100%;
   }
 }
 
