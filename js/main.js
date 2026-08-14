@@ -192,6 +192,9 @@ feature_tinted_title: "Tinturadas",
 feature_tinted_text: "Flores cuidadosamente tinturadas para lograr tonos únicos y vibrantes, conservando su belleza, textura y apariencia natural.",
 feature_cta: "VER PRODUCTOS",
  process_section_title: "Nuestra cadena de suministro",
+ export_title: "Exportaciones a más de 10 países",
+export_text: "Nuestras flores llegan a América, Europa, Medio Oriente y Asia.",
+export_map_alt: "Mapa mundial con países exportados resaltados",
 
     },
 
@@ -386,6 +389,10 @@ feature_text: "Discover our high-quality hydrangeas grown under strict technical
 feature_tinted_title: "Dyed Flowers",
 feature_tinted_text: "Carefully dyed flowers created in unique, vibrant shades while preserving their beauty, texture, and natural appearance.",
 feature_cta: "VIEW PRODUCTS",
+
+export_title: "Exports to more than 10 countries",
+export_text: "Our flowers reach markets across America, Europe, the Middle East, and Asia.",
+export_map_alt: "World map with highlighted export countries",
 
 
 
