@@ -121,17 +121,14 @@
   text-align: center;
 }
 
-@media (max-width: 640px) {
-  .tinted-section {
-    min-height: auto;
-    padding: 45px 18px 50px;
-  }
-
+@media (max-width: 1000px) {
+  .colors-grid,
   .colors-grid.tinted-grid {
     grid-template-columns: 1fr;
     max-width: 231px;
   }
 
+  .colors-grid .product-link,
   .colors-grid.tinted-grid .product-link {
     width: 100%;
   }
